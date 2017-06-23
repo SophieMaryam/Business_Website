@@ -22,10 +22,12 @@ html, body {
 	top:0;
 	z-index:10000;
 	font-family: 'Inconsolata', monospace;
-	color:black;
+	color:white;
 	padding-right:50px;
 	padding-left:50px;
 	text-transform: uppercase;
+	font-weight:bold;
+	letter-spacing: .05em;
 }
 
 
@@ -34,7 +36,7 @@ html, body {
 	background-size:cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
-	height:850px;
+	height:1000px;
 	width:100%;
 	top:0;
 	left:0;
@@ -55,9 +57,8 @@ html, body {
 }
 
 .offers {
-	background-color:white; /*#F5F1F0*/
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-	padding-top:50px;
+	background-color:#F5F1F0
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-bottom:0px;
 	padding-bottom:150px;
 	
@@ -72,11 +73,11 @@ html, body {
 	text-align:center;
 	text-transform: uppercase;
 	padding-bottom:30px;
-	position:fixed;
+
 }
 
-.ouroptions li {
-	display:inline;
+.ouroptions {
+	display:inline-block;
 	list-style: none;
 	padding-right:40px;
 }
@@ -85,12 +86,13 @@ html, body {
 #first {
 	border-radius:50px 50px 50px 50px;
 	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);
-	margin-left: 100px
+	/*margin-left: 100px*/
 }
 
 #second {
 	border-radius:50px 50px 50px 50px;
 	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);
+/*	margin-left:400px;*/
 }
 
 #massages {
@@ -115,19 +117,60 @@ html, body {
 	padding: 10px 10px;
   	width:100%;
   	font-family: 'Inconsolata', monospace; 
-  	background-color:rgba(182, 208, 223, 0.4);
-  	bottom:0;
+  	background:-webkit-linear-gradient(top, #7db9e8 8%,#7db9e8 31%,#7db9e8 39%,#7db9e8 41%,#2989d8 92%);
   	right:0;
   	font:black;
   	height:30px;
-  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	box-shadow: 15px 4px 8px 5px rgba(0, 0, 0, 0.2), 20px 6px 20px 10px rgba(0, 0, 0, 0.19);
+	height:250px;
 	}
+
+.footer-content ul{
+	 margin-left: 290px;
+	margin-top:50px;
+}
 
 .footer-content li{
 	text-decoration:none;
 	list-style-type:none;
 	display:inline;
+	color:white;
+	text-align:center;
+	padding-right:50px;
+	padding-left:50px;
+	
+	text-transform:uppercase;
+	letter-spacing: .05em;
+	font-size:20px;
 
+}
+
+#copyright {
+	padding-top:60px;
+	text-align:center;
+	color:white;
+	font-family: 'Inconsolata', monospace; 
+	font-size:20px;
+	text-transform:uppercase;
+	letter-spacing: .05em;
+
+}
+
+a:link {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	color:black;
+}
+
+a:visited {
+	color:white;
+}
+
+#jobs{
+	padding-left:50px;
 }
 
 
