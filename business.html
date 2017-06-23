@@ -4,25 +4,82 @@
 	<title>Home page</title>
 		<link type="text/css" rel="stylesheet" href="stylepage.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+
 </head>
 <body>
 
 	<div class="header">
 		<div class="navbar">
 			<ul> 
-				<li> About </li>
-				<li> <img src="" > </li>
-				<li> Contact </li>
-				<li> Book </li>
+				<li> HOME | </li>
+				<li> ABOUT | </li>
+				<li> CONTACT | </li>
+				<li> BOOK </li>
 			</ul>
-			</div>
 		</div>
-
+	</div>
+	
 	<div id="cover">
+		<div class="cover-content">
+			<h1> S&S SPA </h1>
+			<h2> Enlighten your mind and body </h2>
+		</div>
+	</div>
+	<br>
 
+<div class="offers">
+
+	<div id="treatments"> 
+		<h2> TREATMENTS </h2>
 	</div>
 
-	<h1 id="name"> S&S Spa </h1>
+	<div class="ouroptions">
+		<ul>
+			<li> <img id="first" src="https://leilasskincare.com/wp-content/uploads/2016/02/Hot_stone_massage_18690612_l-e1454691547593.jpg" width="auto" height="300px" alt="Treatment 1"/> </li>
+			<li> <img id="second" src= "https://justdoc.com/blog/content/images/2016/07/Women-getting-facial.jpg" width="300px" height="300px" alt="Treatment 2"/>  </li>
+		</ul>
 
+		<p id="massages"> Massages </p>
+		<p id="facials"> Facials </p>
+  
+</div>
+
+</div>
+
+<div class="footer">
+	<div class="footer-content">
+	<ul>
+		<li> Jobs </li>
+		<li> Terms and Conditions </li>
+	</ul>
+	<p>&copy; S&S Spa 2014</p> 
+	</div>
+</div>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+  	$(document).ready(function(){
+  		$('#first').hover(function(){
+  			$('#massages').slideToggle("slow", function(){});
+
+  		});	
+
+  		$('#second').hover(function(){
+  			$('#facials').slideToggle("slow", function(){});
+
+  		});	
+
+
+
+  });
+
+</script>
 </body>
 </html>
