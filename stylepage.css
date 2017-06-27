@@ -1,8 +1,6 @@
 html, body {
 	margin:0;
 	padding:0;
-	background-color: #F5F1F0;
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
 .header {
@@ -18,313 +16,39 @@ html, body {
 
 .navbar li {
 	display:inline;
+	padding-right:50px;
 	text-align:center;
+	top:0;
 	z-index:10000;
 	font-family: 'Inconsolata', monospace;
-	color:white;
-	padding-right:50px;
-	padding-left:50px;
-	text-transform: uppercase;
-	font-weight:bold;
-	letter-spacing: .05em;
-	cursor: pointer;
-  	text-shadow: 1px 1px 2px #DAA520, 0 0 1em #DAA520, 0 0 0.1em #DAA520;
-  	text-decoration: none;
+	color:black;
 }
 
-a:-webkit-any-link{
-	color: white;
-    cursor: pointer;
-    text-decoration:none;
-}
-
-a:hover {
-	color:#DAA520;
-	text-shadow: 1px 1px 2px white, 0 0 1em #DAA520, 0 0 0.1em white;
-}
-
-a:linked{
-	color:white;
-}
 
 #cover {
 	background:url("pineapple.jpg") no-repeat center center fixed;
+	/*position:fixed;*/
 	background-size:cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
-	height:1000px;
-	width:auto;
-	box-shadow: 20px 4px 8px 10px rgba(0, 0, 0, 0.2), 8px 6px 20px 4px rgba(0, 0, 0, 0.19); 
+	height:700px;
+	width:100%;
+	top:0;
+	left:0;
+	
 }
+
 
 .cover-content {
 	margin: 0 auto;
 	color: white;
+	font-family: 'Inconsolata';
 	text-align:center;
-	padding-top:150px;
-	padding-left:700px;
-	font-family: 'Lora', serif;
-	font-size:50px;
-	text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 4px;
+	padding-top:200px;
+	padding-left:500px;
+	font-family: 'Marck Script', cursive;
+	font-size:20px;
 }
-
 
 .offers {
-	background-color:#F5F1F0;
-	height:100%;
-	width:100%;
 }
-
-
-#treatments {
-	font-family: 'Lora', serif;
-	color:black;
-	padding-bottom:40px;
-}
-
-#treatments h2 {
-	text-transform: uppercase;
-	color:#DAA520;
-	font-size:40px;
-	padding-top:100px;
-	text-align:center;
-}
-
-.ouroptions {
-	text-align:center;
-}
-
-
-#first {
-	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);
-}
-
-#second {
-	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);	
-}
-
-
-#third {
-	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);	
-}
-
-#one {
-	display:inline-block;
-	margin: 0 auto;
-	cursor: pointer;
-}
-
-#two {
-	display:inline-block;
-	margin: 0 auto;
-	cursor: pointer;
-	padding-left:20px;
-}
-
-#three {
-	display:inline-block;
-	margin: 0 auto;
-	cursor: pointer;
-	padding-left:20px;
-}
-
-#massages {
-	display:none;
-	list-style:none;
-	text-align:center;
-	font-family: 'Lora', serif;
-	font-weight:bold;
-}
-
-#facials {
-	display:none;
-	list-style:none;
-	text-align:center;
-	font-family: 'Lora', serif;
-	font-weight:bold;
-}
-
-#salon {
-	display:none;
-	list-style:none;
-	text-align:center;
-	font-family: 'Lora', serif;
-	font-weight:bold;
-}
-
-
-#openinghours h2 {
-	font-size:40px;
-	color: #DAA520;
-	text-transform:uppercase;
-	margin-top:90px;
-	text-align:center;
-	font-family: 'Lora', serif;
-}
-
-#openinghours p {
-	font-size:20px;
-	text-align:justify;
-	margin-top:50px;
-	font-family: 'Lora', serif;
-	margin:50px 250px;
-}
-
-
-#facilities h2 {
-	font-size:40px;
-	color: #DAA520;
-	text-transform:uppercase;
-	margin-top:90px;
-	text-align:center;
-	font-family: 'Lora', serif;
-}
-
-#facilities p {
-	font-size:20px;
-	text-align:justify;
-	margin-top:50px;
-	font-family: 'Lora', serif;
-	margin:50px 250px;
-}
-
-#etiquette h2 {
-	color: #DAA520;
-	font-size:40px;
-	text-transform:uppercase;
-	margin-top:90px;
-	text-align:center;
-	font-family: 'Lora', serif;
-}
-
-#etiquette p {
-	font-size:20px;
-	text-align:justify;
-	font-family: 'Lora', serif;
-	margin-right:250px;
-	margin-left:250px;
-	
-}
-
-#etiquette #para {
-	text-align:center;
-	margin-top:10px;
-}
-
-#etiquette {
-	margin-bottom:100px;
-}
-/*
-#sound {
-	display:none;
-}*/
-
-.footer {
-	padding: 10px 10px;
-  	width:100%;
-  	font-family: 'Lora', serif;
-  	background:-webkit-linear-gradient(top, #a2cdee 23%,#a2cdee 23%,#64a9e2 100%);
-  	box-shadow: 15px 4px 8px 5px rgba(0, 0, 0, 0.2), 20px 6px 20px 10px rgba(0, 0, 0, 0.19);
-  	bottom:0;
-}
-
-.footer-content ul{
-	margin-left: 290px;
-	margin-top:30px;
-}
-
-.footer-content li{
-	text-decoration:none;
-	list-style-type:none;
-	display:inline;
-	text-align:center;
-	padding-right:50px;
-	text-transform:uppercase;
-	letter-spacing: .05em;
-	font-size:20px;
-	cursor: pointer;
-	color:white;
-
-}
-
-#copyright {
-	padding-top:10px;
-	text-align:center;
-	color:white;
-	font-family: 'Lora', serif;
-	font-size:20px;
-	text-transform:uppercase;
-	letter-spacing: .05em;
-}
-
-#logo {
-	text-align:center;
-	margin-left:700px;
-	margin-top:30px;
-	width:80px;
-	height:80px;
-	
-}
-
-
-#jobs{
-	padding-left:50px;
-}
-
-
-/* Booking page */
-
-#coverpage2 {
-	background-size:contain;
-	-webkit-background-size: contain;
-	-o-background-size: contain;
-	background-repeat: no-repeat;
-	width:100%;
-	height:700px;
-	box-shadow: 20px 4px 8px 10px rgba(0, 0, 0, 0.2), 8px 6px 20px 4px rgba(0, 0, 0, 0.19); 
-	background:url("bookingimage.jpeg");
-}
-
-.cover-content2 {
-	
-}
-
-#form h3 {
-	font-size:30px;
-}
-
-#form {
-	margin-top:100px;
-}
-
-#bookingform {
-	padding-left:20px;
-	font-family: 'Lora', serif;
-	font-size:40px;
-	color: #DAA520;
-}
-
-#information {
-	font-family: 'Lora', serif;
-	padding-left:60px;
-	padding-bottom:50px;
-	font-size:25px;
-}
-
-.inline {
-	display:inline-block;
-}
-
-.end {
-	margin-top:205px;
-}
-
-#myImage {
-	height:400px;
-	width:auto;
-	/*margin-left:700px;*/
-	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);
-}
-
-
-
