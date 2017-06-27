@@ -214,14 +214,10 @@ a:linked{
 #etiquette {
 	margin-bottom:100px;
 }
-
-#myImage {
-	height:400px;
-	width:auto;
-	margin-left:700px;
-	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);
-}
-
+/*
+#sound {
+	display:none;
+}*/
 
 .footer {
 	padding: 10px 10px;
@@ -293,11 +289,12 @@ a:linked{
 	
 }
 
-#information {
-	font-family: 'Lora', serif;
-	padding-left:60px;
-	padding-bottom:50px;
-	font-size:25px;
+#form h3 {
+	font-size:30px;
+}
+
+#form {
+	margin-top:100px;
 }
 
 #bookingform {
@@ -307,18 +304,27 @@ a:linked{
 	color: #DAA520;
 }
 
-#form h3 {
-	font-size:30px;
+#information {
+	font-family: 'Lora', serif;
+	padding-left:60px;
+	padding-bottom:50px;
+	font-size:25px;
 }
 
-#form {
-	margin-top:100px;
+.inline {
+	display:inline-block;
 }
 
 .end {
 	margin-top:205px;
 }
 
+#myImage {
+	height:400px;
+	width:auto;
+	/*margin-left:700px;*/
+	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);
+}
 
 
 
