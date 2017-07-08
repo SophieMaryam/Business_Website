@@ -48,7 +48,7 @@ a:linked{
 }
 
 #cover {
-	background:url("pineapple.jpg") no-repeat center center fixed;
+	background:url("images/pineapple.jpg") no-repeat center center fixed;
 	background-size:cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -293,7 +293,7 @@ font-size:40px;
 	width:100%;
 	height:700px;
 	box-shadow: 20px 4px 8px 10px rgba(0, 0, 0, 0.2), 8px 6px 20px 4px rgba(0, 0, 0, 0.19); 
-	background:url("bookingimage.jpeg");
+	background:url("images/bookingimage.jpeg");
 }
 
 .cover-content2 {
@@ -341,7 +341,7 @@ font-size:40px;
 /*ABOUT PAGE*/
 
 .coverabout{
-	background:url("spa2.jpeg");
+	background:url("images/spa2.jpeg");
 	background-size:cover;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -385,7 +385,7 @@ font-size:40px;
 /*CONTACT PAGE*/
 
 #covercontact{
-	background:url("spa1.jpeg");
+	background:url("images/spa1.jpeg");
 	background-size:cover;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -438,7 +438,7 @@ font-size:40px;
 
 
 .allinfo {
-	font-family: 'Lora', serif;
+	font-family:'Lora', serif;
 	text-align: center;
     margin-left: 400px;
     margin-top:100px;
