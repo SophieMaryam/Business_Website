@@ -322,7 +322,8 @@ a:linked{
 #myImage {
 	height:400px;
 	width:auto;
-	/*margin-left:700px;*/
+	float:right;
+	margin-right:100px;
 	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);
 }
 
@@ -344,11 +345,30 @@ a:linked{
 
 #abouttitle{
 	text-align: center;
+	color: #DAA520;
 }
 
 #title1{
 	text-align: center;
 }
+
+#title1{
+	color: #DAA520;
+}
+
+#titlemassages{
+	cursor: pointer;
+}
+
+#titlefacials{
+	cursor: pointer;
+}
+
+#titlesalons{
+	cursor: pointer;
+}
+
+
 
 
 /*CONTACT PAGE*/
@@ -416,5 +436,9 @@ a:linked{
 
 }
 
+.contactheaders {
+	color: #DAA520; 
+	font-size: 25px;
+}
 
 
