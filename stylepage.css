@@ -48,7 +48,7 @@ a:linked{
 }
 
 #cover {
-	background:url("pineapple.jpg") no-repeat center center fixed;
+	background:url("images/pineapple.jpg") no-repeat center center fixed;
 	background-size:cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -271,6 +271,17 @@ a:linked{
 	padding-left:50px;
 }
 
+#abutton{
+padding: 20px 40px; 
+background-color: #DAA520; 
+color:black; 
+font-family:'Lora', serif; 
+border:none; 
+cursor:pointer; 
+margin-top:30px;
+font-size:40px;
+}
+
 
 /* Booking page */
 
@@ -282,7 +293,7 @@ a:linked{
 	width:100%;
 	height:700px;
 	box-shadow: 20px 4px 8px 10px rgba(0, 0, 0, 0.2), 8px 6px 20px 4px rgba(0, 0, 0, 0.19); 
-	background:url("bookingimage.jpeg");
+	background:url("images/bookingimage.jpeg");
 }
 
 .cover-content2 {
@@ -322,14 +333,15 @@ a:linked{
 #myImage {
 	height:400px;
 	width:auto;
-	/*margin-left:700px;*/
+	float:right;
+	margin-right:100px;
 	box-shadow: 5px 1px 6px 5px rgba(0, 0, 0, 0.12), 3px 1px 4px 3px rgba(0, 0, 0, 0.24);
 }
 
 /*ABOUT PAGE*/
 
 .coverabout{
-	background:url("spa2.jpeg");
+	background:url("images/spa2.jpeg");
 	background-size:cover;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -344,17 +356,36 @@ a:linked{
 
 #abouttitle{
 	text-align: center;
+	color: #DAA520;
 }
 
 #title1{
 	text-align: center;
 }
 
+#title1{
+	color: #DAA520;
+}
+
+#titlemassages{
+	cursor: pointer;
+}
+
+#titlefacials{
+	cursor: pointer;
+}
+
+#titlesalons{
+	cursor: pointer;
+}
+
+
+
 
 /*CONTACT PAGE*/
 
 #covercontact{
-	background:url("spa1.jpeg");
+	background:url("images/spa1.jpeg");
 	background-size:cover;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -407,7 +438,7 @@ a:linked{
 
 
 .allinfo {
-	font-family: 'Lora', serif;
+	font-family:'Lora', serif;
 	text-align: center;
     margin-left: 400px;
     margin-top:100px;
@@ -416,5 +447,9 @@ a:linked{
 
 }
 
+.contactheaders {
+	color: #DAA520; 
+	font-size: 25px;
+}
 
 

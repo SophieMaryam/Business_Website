@@ -12,7 +12,7 @@
 <div class="header">
 		<div class="navbar">
 			<ul> 
-				<li> <a href="business.html"> HOME </a> </li>
+				<li> <a href="index.html"> HOME </a> </li>
 				<li> | </li>
 				<li> <a href="about.html"> ABOUT </a> </li>
 				<li> | </li>
@@ -45,20 +45,20 @@
 	   			<br>
 
 	   			<div id="test">
-	  			<img id="myImage" src="pedicure.jpeg" alt="image test" />
+	  			<img id="myImage" src="images/pedicure.jpeg" alt="image test" />
   				</div>
 
 	   			<p> Name: </p>
-	   			<input class="box" type="TEXT" size="30" maxlength="100" />
+	   			<input class="box" type="TEXT" placeholder="Name" size="30" maxlength="100" />
 	   			<p> Email: </p>
-	   			<input type="TEXT" size="30" maxlength="70" /></p>
+	   			<input type="TEXT" placeholder="Email" size="30" maxlength="70" /></p>
 	  			<p> Telephone: </p> 
-	  			<input type="TEXT" size="30" maxlength="70" /></p>  
+	  			<input type="TEXT" placeholder="Telephone" size="30" maxlength="70" /></p>  
 		  
 		<br>
 		<br>
 		  	<h3> Select a Date </h3>
-		 		<input id="calender" size="30" maxlength="70"/>
+		 		<input id="calender" placeholder="mm-dd-yyyy" size="30" maxlength="70"/>
 		 
 
 		<br>
@@ -118,7 +118,7 @@
 			<p>&copy; S&S Spa 2014 ✩ Herengracht 333, 1010 AA Amsterdam, The Netherlands ✩ ssspa@gmail.com ✩ +31 20 777 7111 ✩ <a href="https://www.google.nl/maps/place/John+M.+Keynesplein+12,+1066+EP+Amsterdam/data=!4m2!3m1!1s0x47c5e1858e61d4ff:0xa583b369719c707d?sa=X&ved=0ahUKEwjwqMfJidTUAhUMEVAKHbc7A8wQ8gEIIzAA"> Show on Map </a> </p> 
 		</div>
 
-		<img id="logo" src="logo.png"/>
+		<img id="logo" src="logos/logo.png"/>
 	</div>
 </div>
 
@@ -137,7 +137,7 @@ $(document).ready(function() {
  
 
 
-		var images = new Array ('ourbuilding.jpeg', 'bodymassage.jpeg', 'relax.jpg');
+		var images = new Array ('images/ourbuilding.jpeg', 'images/bodymassage.jpeg', 'images/relax.jpg');
 		var index = 1;
 
 		function rotateImage()
