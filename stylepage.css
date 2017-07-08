@@ -271,6 +271,17 @@ a:linked{
 	padding-left:50px;
 }
 
+#abutton{
+padding: 20px 40px; 
+background-color: #DAA520; 
+color:black; 
+font-family:'Lora', serif; 
+border:none; 
+cursor:pointer; 
+margin-top:30px;
+font-size:40px;
+}
+
 
 /* Booking page */
 
